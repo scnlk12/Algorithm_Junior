@@ -20,7 +20,7 @@ void BackTrack(int t) {
 			return;
 		}
 	}
-
+	
 	//中间结点
 	for (int i = t; i < n; i++) {	//找出所有排列
 
