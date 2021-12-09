@@ -23,7 +23,6 @@ void BackTrack(int t) {
 		}
 		return;
 	}
-
 	for (int i = 0; i < 2; i++) {	//第一行每个结点都有两种可能性 +/-
 		x[0][t] = i;
 		PositiveCount += i;
