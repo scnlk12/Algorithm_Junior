@@ -9,6 +9,7 @@ int half = 0;	//half = n * (n + 1) / 4
 
 void BackTrack(int t) {
 
+
 	if (PositiveCount > half || ((t + 1) * t / 2 - PositiveCount) > half) return;	//+或-超过总符号数的一半，剪枝
 
 	if (t == n) {	//叶子结点
